@@ -18,6 +18,21 @@ A Java-based ATM (Automated Teller Machine) interface implementation that simula
 - Exception Handling: Custom exceptions for insufficient balance and invalid operations
 - Data Management: In-memory transaction tracking
 
+##  Project Structure
+```
+ATM_Interface
+├── src
+│   └── com
+│       └── sanju
+             │  └── CustomerDetails.java
+│            ├──Mainclasse
+│               ├── Account.java
+│               ├── Transaction.java
+│               └── Main.java
+├── .gitignore
+└── README.md
+```
+
 ## Class Structure
 - `Account.java`: Manages account details and balance
   - Balance management
